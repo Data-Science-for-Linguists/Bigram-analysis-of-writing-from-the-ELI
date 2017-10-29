@@ -26,3 +26,19 @@ _Entry #2: Oct 8, 2017_
 - Figure out how to change all floats back to ints in dataframe
 - Remove more unnecessary apostrophes from other columns  
 - continuing to explore data
+
+<br>
+<br>
+_Entry #2: Oct 29, 2017_
+
+**Updates**  
+- *Creating of new 'Project_Code2'*
+  This new document has been created as a number of significant changes have been made to the original code. Based on discussions with other members of the ELI Data Mining Group, the following points were determined:
+
+  - For the sake of efficiency, it is better not to merge the different data frames into one big one
+  - A 'sanitization' step of the data was completed which duplicated some of the steps of my initial code. These duplications include removing unwanted apostrophes, changing all 'null' and 'ull' to NaN, and removing empty or unreal students (who were most likely teachers). As such, the dataset is now ready for more in-depth cleaning and analysis, i.e. the purpose of this notebook.
+- 
+
+
+**Next steps**
+-
