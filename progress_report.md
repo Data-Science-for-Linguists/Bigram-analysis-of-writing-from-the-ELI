@@ -33,12 +33,23 @@ _Entry #2: Oct 29, 2017_
 
 **Updates**  
 - *Creating of new 'Project_Code2'*
-  This new document has been created as a number of significant changes have been made to the original code. Based on discussions with other members of the ELI Data Mining Group, the following points were determined:
+  This new document has been created as a number of significant changes have been made to the original code. Based on discussions with other members of the ELI Data Mining Group, the following points were determined:  
 
   - For the sake of efficiency, it is better not to merge the different data frames into one big one
-  - A 'sanitization' step of the data was completed which duplicated some of the steps of my initial code. These duplications include removing unwanted apostrophes, changing all 'null' and 'ull' to NaN, and removing empty or unreal students (who were most likely teachers). As such, the dataset is now ready for more in-depth cleaning and analysis, i.e. the purpose of this notebook.
-- 
+  - A 'sanitization' step of the data was completed which duplicated some of the steps of my initial code. These duplications include removing unwanted apostrophes, changing all 'null' and 'ull' to NaN, and removing empty or unreal students (who were most likely teachers). As such, the dataset is now ready for more in-depth cleaning and analysis, i.e. the purpose of this notebook.  
 
+- New code attempts and descriptions of three goals:
+  #1 create find_stuff function to find info from multiple dataframes
+  #2 find a link between the different dataframes to identify which 'text' from answer_df have class_id == 3 and file_id == 6
+  #3 tokenize 'text' column in answer_df  
+
+- Of the above goals, the first two were unsuccessful although at least there is some clarity of what is needed
+- Goal 3 to be accomplished in next few days and should be more manageable  
+- Creation of 2 new dataframes: course_df and user_df which (hopefully) contain information useful for finding the necessary info  
+
+- Completed LICENSE doc which outlines the proposed future CC LICENSE
+- Updated project_plan.md to reflect ongoing changes to overall project and to set realistic goals  
 
 **Next steps**
--
+- Consult with colleagues about goals 1 and 2
+- Create dataframe with class_id = 3, file_type_id = 6, corresponding answer_id and 'text'
