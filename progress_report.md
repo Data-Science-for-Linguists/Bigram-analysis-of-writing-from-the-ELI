@@ -43,15 +43,16 @@ _Entry #2: Oct 29, 2017_
   #2 find a link between the different dataframes to identify which 'text' from answer_df have class_id == 3 and file_id == 6
   #3 tokenize 'text' column in answer_df  
 
-- Of the above goals, the first two were unsuccessful although at least there is some clarity of what is needed
-- Tokenized column created successfully
+- Of the above goals, the first is slightly successful, allowing me to now plug in a course type and all the relevant classes are then provided. The next step is to create similar functions mapping class id to other stats  
+- goal 2 was unsuccessful although at least there is some clarity of what is needed  
+- Tokenized column created successfully  
+- Bigram column created (I believe) successfully although more testing is needed and also consideration of whether to remove punctuation  
 - Creation of 2 new dataframes: course_df and user_df which (hopefully) contain information useful for finding the necessary info  
-
 - Completed LICENSE doc which outlines the proposed future CC LICENSE
 - Updated project_plan.md to reflect ongoing changes to overall project and to set realistic goals  
 
 **Next steps**
-- Consult with colleagues about goals 1 and 2
-- Create dataframe with class_id = 3, file_type_id = 6, corresponding answer_id and 'text'
-- Gather stats on bigrams and trigrams and sort by L1 and proficiency level
-- Apply lexical diversity code to different columns (toks, bigrams, trigrams)
+- Consult with colleagues about goals 1 and 2  
+- Create dataframe with class_id = 3, file_type_id = 6, corresponding answer_id and 'text'  
+- Analyze stats on bigrams and sort by L1 and proficiency level  
+- Apply lexical diversity code to different columns (toks, bigrams)
