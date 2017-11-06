@@ -1,6 +1,10 @@
 ***Project plan***  
 
-Last revised 29/10/17
+Last revised 6/11/17
+
+- *Important change of plan 6/11/17:*  
+  After a lot of searching, it turns out the speaking transcripts I wanted had not been included in the answer_csv but were still on a hard drive and not yet part of the dataset. Rather than spending more time on data acquisition, the plan is to continue with the ideas as before, but on the written texts which I have already processed. This will allow for more time to be spent on data analysis and machine learning. All references to 'spoken texts' now refers to 'written texts'.
+
 
 - Project title: *An analysis of spoken lexical bundles in the Pitt ELI corpus*
 

@@ -55,4 +55,24 @@ _Entry #2: Oct 29, 2017_
 - Consult with colleagues about goals 1 and 2  
 - Create dataframe with class_id = 3, file_type_id = 6, corresponding answer_id and 'text'  
 - Analyze stats on bigrams and sort by L1 and proficiency level  
-- Apply lexical diversity code to different columns (toks, bigrams)
+- Apply lexical diversity code to different columns (toks, bigrams)  
+<br>
+<br>
+_Entry #2: Nov 6, 2017_
+
+**Updates**  
+- *Change of plan:*  
+  After a lot of searching, it turns out the speaking transcripts I wanted had not been included in the answer_csv but were still on a harddrive and not yet part of the dataset. Rather than spending more time on data acquisition, the plan is to continue with the ideas as before, but on the written texts which I have already processed. This will allow for more time to be spent on data analysis and machine learning.
+
+- *Continuing on from 'Project_Code2'*  
+  - entire corpus created by joining all texts from 'texts' columns
+  - unigram and bigram frequency dictionaries created from the new corpus
+  - MI function created that produces MI when two words from the corpus are entered
+
+**Next steps**  
+Create another DF called bigrams_df with bigrams, MI scores, occurences per million score, and perhaps more to bge added later. To do so:  
+1) Create function for calculating MI - COMPLETE  
+2) Create function for calculating occurences per million for unigrams and bigrams  
+3) Apply the MI formula for pairs of words in the bigram list and create a column in the new DF  
+4) Apply the occurences per million for bigrams and create a column in the new DF  
+5) Create a column showing percentage of time the bigrams are used by the three proficiency levels  
