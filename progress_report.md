@@ -29,7 +29,7 @@ _Entry #2: Oct 8, 2017_
 
 <br>
 <br>
-_Entry #2: Oct 29, 2017_
+_Entry #3: Oct 29, 2017_
 
 **Updates**  
 - *Creating of new 'Project_Code2'*
@@ -58,11 +58,11 @@ _Entry #2: Oct 29, 2017_
 - Apply lexical diversity code to different columns (toks, bigrams)  
 <br>
 <br>
-_Entry #2: Nov 6, 2017_
+_Entry #4: Nov 6, 2017_
 
 **Updates**  
 - *Change of plan:*  
-  After a lot of searching, it turns out the speaking transcripts I wanted had not been included in the answer_csv but were still on a harddrive and not yet part of the dataset. Rather than spending more time on data acquisition, the plan is to continue with the ideas as before, but on the written texts which I have already processed. This will allow for more time to be spent on data analysis and machine learning.
+  After a lot of searching, it turns out the speaking transcripts I wanted had not been included in the answer_csv but were still on a hard drive and not yet part of the dataset. Rather than spending more time on data acquisition, the plan is to continue with the ideas as before, but on the written texts which I have already processed. This will allow for more time to be spent on data analysis and machine learning.
 
 - *Continuing on from 'Project_Code2'*  
   - entire corpus created by joining all texts from 'texts' columns
@@ -70,9 +70,51 @@ _Entry #2: Nov 6, 2017_
   - MI function created that produces MI when two words from the corpus are entered
 
 **Next steps**  
-Create another DF called bigrams_df with bigrams, MI scores, occurences per million score, and perhaps more to bge added later. To do so:  
-1) Create function for calculating MI - COMPLETE  
-2) Create function for calculating occurences per million for unigrams and bigrams  
+Create another DF called bigrams_df with bigrams, MI scores, occurrences per million score, and perhaps more to bge added later. To do so:  
+1) Create function for calculating MI
+2) Create function for calculating occurrences per million for unigrams and bigrams  
 3) Apply the MI formula for pairs of words in the bigram list and create a column in the new DF  
-4) Apply the occurences per million for bigrams and create a column in the new DF  
+4) Apply the occurrences per million for bigrams and create a column in the new DF  
 5) Create a column showing percentage of time the bigrams are used by the three proficiency levels  
+
+<br>
+<br>
+
+_Entry #5: Nov 27, 2017_
+
+**Updates**  
+- *Based on Progress report 2 feedback*  
+  - Create data sharing plan
+  - Separate own licensing form ELI licensing
+  - Include sample data in repo
+  - Rename LICENSE.md to LICENSE_notes.md
+  - Make a user-facing LICENSE.md file as a binding document
+
+- *Based on Visitor log feedback*  
+  - Fix sample data (no empty users)
+  - Update README and Project Plan to focus on bigrams
+
+- *Based on Progress report 3 instructions*
+  - give project repo a descriptive name
+- Update your README.md file:
+- Update project_plan.md
+
+- *Continued analysis*  
+  - Add starter code  
+  - Add class abbreviations and version number to each answer
+  - Complete 'Next Steps' from previous update:
+  Create another DF called bigrams_df with bigrams, MI scores, occurrences per million score, and perhaps more to be added later. To do so:  
+  1) Create function for calculating MI
+  2) Create function for calculating occurrences per million for unigrams and bigrams  
+  3) Apply the MI formula for pairs of words in the bigram list and create a column in the new DF  
+  4) Apply the occurrences per million for bigrams and create a column in the new DF  
+  5) Create a column showing percentage of time the bigrams are used by the three proficiency levels
+- Narrow down answer_df to new df with only writing class type and version type 1
+
+**Next steps for final report and presentation**  
+- *Machine learning:*
+  - Predict level based on bigram frequency (types and tokens)
+  - Predict level based on MI of bigrams used
+- Create visualizations (heat maps for predictions and bar graphs for observed stats)
+- Simple statistical analysis of significance of correlation and variance
+- Create powerpoint presentation
