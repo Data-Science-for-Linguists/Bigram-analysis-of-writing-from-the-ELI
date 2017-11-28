@@ -84,37 +84,47 @@ _Entry #5: Nov 27, 2017_
 
 **Updates**  
 - *Based on Progress report 2 feedback*  
-  - Create data sharing plan
-  - Separate own licensing form ELI licensing
-  - Include sample data in repo
-  - Rename LICENSE.md to LICENSE_notes.md
-  - Make a user-facing LICENSE.md file as a binding document
+  - Created data sharing plan
+  - Separated own licensing form ELI licensing
+  - Included sample data in repo
+  - Renamed LICENSE.md to LICENSE_notes.md
+  - Made a user-facing LICENSE.md file as a binding document
 
 - *Based on Visitor log feedback*  
-  - Fix sample data (no empty users)
-  - Update README and Project Plan to focus on bigrams
+  - Fixed sample data (no empty users)
+  - Updated README and Project Plan to focus on bigrams
 
 - *Based on Progress report 3 instructions*
-  - give project repo a descriptive name
-- Update your README.md file:
-- Update project_plan.md
+  - gave project repo a descriptive name
+- Updated README.md file:
+- Updated project_plan.md
 
 - *Continued analysis*  
-  - Add starter code  
-  - Add class abbreviations and version number to each answer
-  - Complete 'Next Steps' from previous update:
-  Create another DF called bigrams_df with bigrams, MI scores, occurrences per million score, and perhaps more to be added later. To do so:  
+  - Added starter code  
+  - Added class abbreviations and version number to each answer
+  - Completed 'Next Steps' from previous update:
+  Create another DF called bigrams_df with bigrams, MI scores, occurrences per million score, and how often bigrams are used at different levels. To do so:  
   1) Create function for calculating MI
   2) Create function for calculating occurrences per million for unigrams and bigrams  
   3) Apply the MI formula for pairs of words in the bigram list and create a column in the new DF  
   4) Apply the occurrences per million for bigrams and create a column in the new DF  
-  5) Create a column showing percentage of time the bigrams are used by the three proficiency levels
-- Narrow down answer_df to new df with only writing class type and version type 1
+  5) Create a columns showing percentage of time the bigrams are used by the three proficiency levels
+- Narrowed down answer_df to new df with only writing class type and version type 1
 
-**Next steps for final report and presentation**  
+**Next steps for final report and presentation**
+
+_Final analysis touch ups_:  
+-	Deal with capitalization issues skewing data  
+-	Remove levels from combo_df other than 3,4,5 (easy to do but need time to re-run whole script afterwards)  
+
 - *Machine learning:*
   - Predict level based on bigram frequency (types and tokens)
-  - Predict level based on MI of bigrams used
-- Create visualizations (heat maps for predictions and bar graphs for observed stats)
-- Simple statistical analysis of significance of correlation and variance
-- Create powerpoint presentation
+  - Predict level based on MI of bigrams used  
+
+- *Visualizations:*
+  - Create visualizations (heat maps for predictions and bar graphs for observed stats)
+  - Sort bigram_df in different orders to produce tables of common bigrams
+  - Create powerpoint presentation
+
+- *If time:*
+  - Simple statistical analysis of significance of correlation and variance
