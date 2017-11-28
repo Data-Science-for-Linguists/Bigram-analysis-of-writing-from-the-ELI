@@ -40,7 +40,7 @@ _*Size*_
 There are 24544 written texts produced by learners
 
 _*Access*_  
-At present, the dataset is private and the property of the University of Pittsburgh. As a linguistics student involved with analyzing the data, I have access to this private repository. Since the dataset is not yet ready to be shared publicly in its entirety, for this project I would be presenting a sample, with permission from the dataset's authors.
+At present, the dataset is private and the property of the University of Pittsburgh. As a linguistics student involved with analyzing the data, I have access to this private repository. Since the dataset is not yet ready to be shared publicly in its entirety, for this project I would be presenting a sample, with permission from the dataset's authors, of 1000 student texts (user_file_id 7505 to 10108)
 <br>
 <br>
 <br>
