@@ -9,6 +9,7 @@ import nltk
 import glob
 import matplotlib.pyplot as plt
 
+get_ipython().magic('pprint #turn off pretty printing')
 
 from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
@@ -169,7 +170,7 @@ allusers - foo
 # In[19]:
 
 # This user has no course history
-sinfo_df.loc['cm0']
+#sinfo_df.loc['cm0']
 
 
 # In[20]:
