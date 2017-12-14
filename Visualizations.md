@@ -3,11 +3,11 @@
 
 ### Table of contents ###
 
-1.  [Initial setup](#1.-Initial-setup): importing necessary modules and pickles
-2.  [Reminder of overall breakdown](#2.-Reminder-of-overall-breakdown): key overall stats from corpus
-3.  ['Top 20' lists](#3.-'Top-20'-lists): predicting level_id in two ways
-3.  [Machine Learning](#4.-Machine-Learning): predicting level_id in two ways
-4.  [Plotting data](#5.-Plotting-data): creating visualizations of data from previous section
+1.  [Initial setup](#1-Initial-setup): importing necessary modules and pickles
+2.  [Reminder of overall breakdown](#2-Reminder-of-overall-breakdown): key overall stats from corpus
+3.  ['Top 20' lists](#3-Top-20-lists): predicting level_id in two ways
+3.  [Machine Learning](#4-Machine-Learning): predicting level_id in two ways
+4.  [Plotting data](#5-Plotting-data): creating visualizations of data from previous section
 
 
 
